@@ -14,23 +14,23 @@ public:							// Wszystkie zmienne musza byc publiczne.
 
 enum class Paliwo		// Definicja SILNEGO Enuma (eliminuje mozliwosc wpisania zdefiniowanej wartosci, jako liczby int, 
 { 						// ale trzeba pamietac o zapisywaniu tych wartosci razem z zakresem ZAKRES::WARTOSC)
-	PB95, 
-	PB98, 
-	ON, 
-	LPG 
-};
+	PB95, 				//
+	PB98, 				//
+	ON, 				//
+	LPG 				//
+};						//
 
 enum Pojemnosc			// Definicja ZWYKLEGO Enuma
 { 						// w tym przypadku istnieje ryzyko, ze przykladowa wartosc typu enum _1_8 zostanie zinterpretowana jako int 2. 
 	_1_4, 				// w typie enum class tego zagrozenia nie ma.
-	_1_6, 
-	_1_8, 
-	_2_0, 
-	_2_2, 
-	_2_4, 
-	_2_8, 
-	_3_0 
-};
+	_1_6,				//
+	_1_8, 				//
+	_2_0, 				//
+	_2_2, 				//
+	_2_4, 				//
+	_2_8, 				//
+	_3_0 				//
+};						//
 
 struct Auto											// Struktora danych
 {													// mozna jej uzywac, jesli obiekt ma posiadac tylko parametry bez funkcji skladowych
